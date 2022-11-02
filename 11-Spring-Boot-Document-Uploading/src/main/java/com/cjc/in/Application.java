@@ -16,6 +16,7 @@ public class Application {
 		System.out.println("Application running ........");
 		Logger log = LoggerFactory.getLogger(DocumentService.class);
 		log.info("saveDocument called");
+		System.out.println("Document uploading added");
 	}
 
 }
